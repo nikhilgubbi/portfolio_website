@@ -19,7 +19,7 @@ const Timeline = () => {
 
   //   if (carouselRef.current) {
   //     const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
+
   //     scroll(carouselRef.current, scrollLeft);
   //   }
   // }
@@ -43,9 +43,23 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <div>
-      Timeline
-    </div>
+    <Section id="about">
+      <SectionTitle>About Me</SectionTitle>
+      <SectionText>This is Nikhil G R</SectionText>
+      <CarouselContainer ref={carouselRef}>
+        <>
+          {TimeLineData.map((item, index) => (
+            <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
+              <
+
+          </CarouselMobileScrollNode>
+
+          ))}
+
+        </>
+      </CarouselContainer>
+
+    </Section>
   );
 };
 

@@ -6,7 +6,8 @@ export const ImageContainer = styled.div`
   width: 100%;
   padding: 60px;
   margin-top: 48px;
-  display: flex;
+  display:
+   flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
