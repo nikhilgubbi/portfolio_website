@@ -11,8 +11,10 @@ const Hero = (props) => (
         Welcome To <br />
         My Personal Portfolio
       </SectionTitle>
-      <SectionText>This is Nikhil G R</SectionText>
-      <Button onClick={() => window.location = "https:google.com"}>Learn More</Button>
+      <SectionText>Hi, I'm Nikhil G R, a Full Stack Developer from TCS
+        🆂🆈🆂🆃🅴🅼🆂 🅴🅽🅶🅸🅽🅴🅴🆁 (🆃🅲🆂 🅳🅸🅶🅸🆃🅰🅻) 𝐆𝐎𝐎𝐆𝐋𝐄 𝐂𝐋𝐎𝐔𝐃 𝐀𝐒𝐒𝐎𝐂𝐈𝐀𝐓𝐄 𝐂𝐋𝐎𝐔𝐃 𝐄𝐍𝐆𝐈𝐍𝐄𝐄𝐑 𝐈𝐁𝐌 𝐂𝐄𝐑𝐓𝐈𝐅𝐈𝐄𝐃 𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐈𝐎𝐍𝐀𝐋 𝐃𝐀𝐓𝐀 𝐒𝐂𝐈𝐄𝐍𝐓𝐈𝐒𝐓
+      </SectionText>
+      <Button onClick={() => window.location = "https://www.linkedin.com/in/nikhil-gr-415399170/"}>Know More</Button>
     </LeftSection>
 
   </Section>
