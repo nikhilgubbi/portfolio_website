@@ -17,6 +17,20 @@ const Footer = () => {
           <LinkItem href="mailto:gubbinikhil@gmail.com">gubbinikhil@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
+      <SocialIconsContainer>
+        <CompanyContainer>
+          <Slogan>Building on own for the future</Slogan>
+        </CompanyContainer>
+        <SocialIcons href="https://github.com">
+          <AiFillGithub size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://linked.com">
+          <AiFillLinkedin size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://instagram.com">
+          <AiFillInstagram size="3rem" />
+        </SocialIcons>
+      </SocialIconsContainer>
     </FooterWrapper>
 
   );
