@@ -45,7 +45,11 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>This is Nikhil G R</SectionText>
+      <SectionText>I am a 2021 batch graduate from SJC INSTITUTE OF TECHNOLOGY in Computer Science and Engineering.
+        I always love to solve problems in a creative manner. I have learnt the importance of applying few good strategies on modern day to day projects.
+        Now I have joined TCS as System Engineer (TCS Digital). I have joined TCS as a DEVOPS ENGINEER. I have a exposure to Google Cloud related project. Now I am working upon React JS project. I am exploring and learning new things everyday. I am also willing to complete some of the Cloud related Certifications which would help me to upskill my learning. I am also learning some Multi-cloud technologies which includes GCP, AWS and Azure.
+        For me PYTHON is Love.
+        I love to code in PYTHON and have an experience of working upon DATA SCIENCE. It has been a passion for me to become a DATA SCIENTIST since from second year of engineering. While working on some models in DEEP LEARNING such as VGG-16, I also started to learn DEV-OPS so that it would be easy for me to integrate it with the DEV-OPS, which helps me to Automate the things. I also have basic knowledge of AWS Cloud and and do know about Flutter Framework.</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (

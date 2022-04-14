@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiGoogleCloudPlatform, DiReact, DiPython } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -21,22 +21,22 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size='3rem' />
+        <DiGoogleCloudPlatform size='3rem' />
         <ListContainer>
-          <ListTitle>Back-end</ListTitle>
+          <ListTitle>Cloud Technologies</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Database
+            Google Cloud and AWS
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size='3rem' />
+        <DiPython size='3rem' />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Machine Learning and Deep Learning</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Figma
+            Python
           </ListParagraph>
         </ListContainer>
       </ListItem>
