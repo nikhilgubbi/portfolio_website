@@ -7,7 +7,7 @@ const data = [
   { number: 10, text: 'Projects and Blogs' },
   { number: 3, text: 'Global Certifications', },
   { number: 5, text: 'Internships', },
-  { number: 150, text: 'Github Stars', }
+  { number: 150, text: 'Github Stars', },
   { number: 259, text: 'Github Contributions', }
 ];
 
