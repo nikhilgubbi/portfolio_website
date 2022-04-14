@@ -38,9 +38,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2017, text: 'Joined SJCIT', },
+  { year: 2018, text: 'Started Learning Python', },
+  { year: 2019, text: 'Started Learning Machine Learning', },
+  { year: 2020, text: 'MLOPS TRAINING - APPLYING MACHINE LEARNING ON DEVOPS,IBM Data Science Professional Certificate,', },
+  { year: 2021, text: 'Joined TCS as a System Engineer, Google Cloud Certified Associate Cloud Engineer, DeepLearning.AI TensorFlow Developer ', },
+  { year: 2022, text: 'Started Learning React JS', },
 ];
